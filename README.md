@@ -8,4 +8,4 @@ run "npm i"
 
 ## building
 
-run ./build in the top level directory, and look at the public directory.
+run "./build" in the top level directory, and look at the public directory.
