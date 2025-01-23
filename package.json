@@ -1,0 +1,27 @@
+{
+  "name": "v4bug",
+  "version": "1.0.0",
+  "description": "demonstrating a problem with the v4 tailwindcss cli",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samf/v4bug.git"
+  },
+  "keywords": [
+    "reproduce",
+    "bug"
+  ],
+  "author": "Sam Falkner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samf/v4bug/issues"
+  },
+  "homepage": "https://github.com/samf/v4bug#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}

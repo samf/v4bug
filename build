@@ -1,0 +1,7 @@
+#! /bin/sh -xe
+
+mkdir -p public
+
+cp content/index.html public/index.html
+
+npx @tailwindcss/cli -i ./content/main.css -o ./public/main.css
