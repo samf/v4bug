@@ -6,7 +6,10 @@ run "npm i"
 
 ## building
 
-run "./build" in the top level directory, and look at the public directory.
+Run "./build" in the top level directory, and look at the public directory.
+A `grep underline public/main.css` would ideally show a line that is
+specifying the `underline` class, but with the bug, there won't be a line
+containing `.underline`.
 
 ## to reproduce the bug...
 
